@@ -61,6 +61,7 @@ const CreatePost = () => {
     
     const handleChange = (e) => {
         setData({ ...data, [e.target.name]: e.target.value });
+        console.log(data)
     }
 
     const saveJob = async () => {

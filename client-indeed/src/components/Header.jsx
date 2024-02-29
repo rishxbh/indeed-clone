@@ -20,7 +20,7 @@ const Header = () => {
     <StyledAppBar>
         <Toolbar>
             <Link to={routePath.home}>
-                <img src={logo} alt="logo" srcset="" style={{width : 90, marginBottom : 6}}/>   
+                <img src={logo} alt="logo" style={{width : 90, marginBottom : 6}}/>   
             </Link>
             <Link to={routePath.create}>
                 Post A Job
